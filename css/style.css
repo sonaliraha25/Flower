@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1260px;
+   
+    justify-content: center;
+}
+.btnbox{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+    height: 50px;
+    width: 120px;
+    border: 1px;
+    background-color: rgb(42, 75, 165);
+    color:white;
+    font-size: 25px;
+    border-radius: 5%;
+    font-weight: 500;
+}
+.outerbox{
+    background-image: url('../image/pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 500px;
+    width:500px;
+    position: relative;
+    margin-top: 5px;
+    display: flex;
+}
+.innerbox{
+    background-image: url('../image/pic1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width:100px;
+    position:absolute;
+  
+}
+.inn{
+    background-image: url('../image/pic2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width:100px;
+   position: absolute;
+    top:0%;
+ right:0%;
+}
+.inn3{
+    background-image: url('../image/pic3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width:100px;
+   position: absolute;
+    bottom:0%;
+   left:0%;
+}
+.inn4{
+    background-image: url('../image/pic4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width:100px;
+   position: absolute;
+    bottom:0%;
+   right:0%;
+}
+
